@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+    <form action="/register" method="post">
+      <div class="form">
+        <div class="login_box">
+          <h1>..Register here..</h1>
+          <p>Hey there! Enter your details to register your account.</p>
+          <input type="email" name="email" placeholder="Email" class="email" />
+          <input
+            type="text"
+            name="username"
+            placeholder="Username"
+            class="email"
+          />
+          <input
+            type="text"
+            name="fullname"
+            placeholder="Full Name"
+            class="email"
+          />
+
+          <input
+            type="password"
+            name="password"
+            class="password"
+            placeholder="Password"
+            id="password"
+          />
+          <br />
+          <br />
+          <button class="sign_in">Register Account</button>
+          <br />
+          <br />
+          <a href="/login">Already have an account ? Login</a>
+          <p>Or Register with</p>
+          <button><i class="fa-brands fa-google"></i> Google</button>
+          <button><i class="fa-brands fa-facebook"></i> Facebook</button>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
